@@ -9,6 +9,7 @@ dependencies = [
     "litestar[standard]>=2.21.1",
     "pydantic>=2.13.4",
     "scikit-learn==1.6.1",
+    "pandas ==2.2.3"
 ]
 
 [dependency-groups]
