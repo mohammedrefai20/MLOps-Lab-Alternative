@@ -3,12 +3,12 @@ name = "churn-prediction-api"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11, <3.14"
 dependencies = [
     "joblib>=1.5.3",
     "litestar[standard]>=2.21.1",
     "pydantic>=2.13.4",
-    "scikit-learn>=1.8.0",
+    "scikit-learn==1.6.1",
 ]
 
 [dependency-groups]
