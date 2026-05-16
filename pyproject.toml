@@ -9,7 +9,10 @@ dependencies = [
     "litestar[standard]>=2.21.1",
     "pydantic>=2.13.4",
     "scikit-learn==1.6.1",
-    "pandas ==2.2.3"
+    "pandas ==2.2.3",
+    "axiom-py>=0.10.0",
+    "python-dotenv>=1.2.2",
+    "locust>=2.44.0",
 ]
 
 [dependency-groups]
